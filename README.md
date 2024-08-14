@@ -59,3 +59,9 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
   - 从 vercel 初始化模板项目 https://vercel.com/new/ruanzhongnans-projects/templates/nuxt/postgres-nuxt
   - https://vercel.com/templates/nuxt/postgres-nuxt
   - vercel postgres 入门 https://vercel.com/docs/storage/vercel-postgres/quickstart
+
+## `VercelPostgresError - 'missing_connection_string': You did not supply a 'connectionString' and no 'POSTGRES_URL' env var was found.`
+
+- https://github.com/vercel/storage/tree/main/packages/postgres#a-note-for-vite-users
+- https://github.com/orgs/vercel/discussions/2350
+
