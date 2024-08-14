@@ -49,3 +49,12 @@ pnpm preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## 参考资料
+
+- 模板项目 https://vscode.dev/github/vercel/examples/blob/main/storage/postgres-nuxt
+
+- 参考文档
+  - drizzle+Vercel Postgres https://orm.drizzle.team/docs/get-started-postgresql#usage-with-cloudflare-workers
+  - 从 vercel 初始化模板项目 https://vercel.com/new/ruanzhongnans-projects/templates/nuxt/postgres-nuxt
+  - vercel postgres 入门 https://vercel.com/docs/storage/vercel-postgres/quickstart
