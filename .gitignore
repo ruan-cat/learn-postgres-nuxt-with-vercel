@@ -10,7 +10,6 @@ dist
 .vercel
 .turbo
 *.tsbuildinfo
-.vercel
 .env*.local
 
 pnpm-lock.yaml
