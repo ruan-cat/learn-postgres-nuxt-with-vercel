@@ -37,9 +37,14 @@ async function seed() {
     users,
   };
 }
+
+console.log(" env ?? ", import.meta.env.POSTGRES_URL);
+
 export default defineEventHandler(async () => {
   const startTime = Date.now();
-  const db = createPool();
+  const db = createPool({
+    connectionString: import.meta.env.POSTGRES_URL,
+  });
   try {
     const { rows: users } = await db.query("SELECT * FROM users");
     const duration = Date.now() - startTime;
